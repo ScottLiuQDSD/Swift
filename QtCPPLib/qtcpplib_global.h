@@ -1,0 +1,12 @@
+#ifndef QTCPPLIB_GLOBAL_H
+#define QTCPPLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QTCPPLIB_LIBRARY)
+#  define QTCPPLIBSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define QTCPPLIBSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QTCPPLIB_GLOBAL_H

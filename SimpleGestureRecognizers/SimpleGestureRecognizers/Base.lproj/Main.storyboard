@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="guu-QV-9fh">
+                                <rect key="frame" x="113" y="35" width="374" height="134"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rZH-sf-via">
+                                <rect key="frame" x="167" y="286" width="267" height="29"/>
+                                <segments>
+                                    <segment title="Enable Left Swipes"/>
+                                    <segment title="Disable Left Swipes"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeLeftSwipeRecognitionEnabledFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="eNj-uM-fHz"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Arg-Tf-2yr" appends="YES" id="Z6W-9T-gdT"/>
+                            <outletCollection property="gestureRecognizers" destination="Arg-Tf-2yr" appends="YES" id="55Z-PP-EF7"/>
+                            <outletCollection property="gestureRecognizers" destination="Q5r-18-M3c" appends="YES" id="1ta-1A-9uD"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="guu-QV-9fh" id="22G-W4-ZFP"/>
+                        <outlet property="segmentedControl" destination="rZH-sf-via" id="egU-b6-Jtj"/>
+                        <outlet property="swipeLeftRecognizer" destination="Q5r-18-M3c" id="JUn-bI-yn0"/>
+                        <outlet property="tapRecognizer" destination="Arg-Tf-2yr" id="doC-ZA-rKj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Arg-Tf-2yr"/>
+                <swipeGestureRecognizer direction="right" id="Q5r-18-M3c"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

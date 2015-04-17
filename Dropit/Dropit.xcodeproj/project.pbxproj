@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334025531ADF7FE3002DB99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334025521ADF7FE3002DB99D /* AppDelegate.swift */; };
+		334025581ADF7FE3002DB99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334025561ADF7FE3002DB99D /* Main.storyboard */; };
+		3340255A1ADF7FE3002DB99D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334025591ADF7FE3002DB99D /* Images.xcassets */; };
+		3340255D1ADF7FE3002DB99D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3340255B1ADF7FE3002DB99D /* LaunchScreen.xib */; };
+		334025691ADF7FE3002DB99D /* DropitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334025681ADF7FE3002DB99D /* DropitTests.swift */; };
+		334025731ADF8233002DB99D /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334025721ADF8233002DB99D /* DropitViewController.swift */; };
+		334025751ADF8968002DB99D /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334025741ADF8968002DB99D /* DropitBehavior.swift */; };
+		334025771ADF9142002DB99D /* BezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334025761ADF9142002DB99D /* BezierPathView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334025631ADF7FE3002DB99D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334025451ADF7FE2002DB99D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3340254C1ADF7FE3002DB99D;
+			remoteInfo = Dropit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3340254D1ADF7FE3002DB99D /* Dropit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334025511ADF7FE3002DB99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334025521ADF7FE3002DB99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		334025571ADF7FE3002DB99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334025591ADF7FE3002DB99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3340255C1ADF7FE3002DB99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		334025621ADF7FE3002DB99D /* DropitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334025671ADF7FE3002DB99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334025681ADF7FE3002DB99D /* DropitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropitTests.swift; sourceTree = "<group>"; };
+		334025721ADF8233002DB99D /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
+		334025741ADF8968002DB99D /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
+		334025761ADF9142002DB99D /* BezierPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3340254A1ADF7FE3002DB99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3340255F1ADF7FE3002DB99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334025441ADF7FE2002DB99D = {
+			isa = PBXGroup;
+			children = (
+				3340254F1ADF7FE3002DB99D /* Dropit */,
+				334025651ADF7FE3002DB99D /* DropitTests */,
+				3340254E1ADF7FE3002DB99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3340254E1ADF7FE3002DB99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3340254D1ADF7FE3002DB99D /* Dropit.app */,
+				334025621ADF7FE3002DB99D /* DropitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3340254F1ADF7FE3002DB99D /* Dropit */ = {
+			isa = PBXGroup;
+			children = (
+				334025561ADF7FE3002DB99D /* Main.storyboard */,
+				334025721ADF8233002DB99D /* DropitViewController.swift */,
+				334025761ADF9142002DB99D /* BezierPathView.swift */,
+				334025741ADF8968002DB99D /* DropitBehavior.swift */,
+				334025501ADF7FE3002DB99D /* Supporting Files */,
+			);
+			path = Dropit;
+			sourceTree = "<group>";
+		};
+		334025501ADF7FE3002DB99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334025521ADF7FE3002DB99D /* AppDelegate.swift */,
+				334025591ADF7FE3002DB99D /* Images.xcassets */,
+				3340255B1ADF7FE3002DB99D /* LaunchScreen.xib */,
+				334025511ADF7FE3002DB99D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		334025651ADF7FE3002DB99D /* DropitTests */ = {
+			isa = PBXGroup;
+			children = (
+				334025681ADF7FE3002DB99D /* DropitTests.swift */,
+				334025661ADF7FE3002DB99D /* Supporting Files */,
+			);
+			path = DropitTests;
+			sourceTree = "<group>";
+		};
+		334025661ADF7FE3002DB99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				334025671ADF7FE3002DB99D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3340254C1ADF7FE3002DB99D /* Dropit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3340256C1ADF7FE3002DB99D /* Build configuration list for PBXNativeTarget "Dropit" */;
+			buildPhases = (
+				334025491ADF7FE3002DB99D /* Sources */,
+				3340254A1ADF7FE3002DB99D /* Frameworks */,
+				3340254B1ADF7FE3002DB99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropit;
+			productName = Dropit;
+			productReference = 3340254D1ADF7FE3002DB99D /* Dropit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334025611ADF7FE3002DB99D /* DropitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3340256F1ADF7FE3002DB99D /* Build configuration list for PBXNativeTarget "DropitTests" */;
+			buildPhases = (
+				3340255E1ADF7FE3002DB99D /* Sources */,
+				3340255F1ADF7FE3002DB99D /* Frameworks */,
+				334025601ADF7FE3002DB99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334025641ADF7FE3002DB99D /* PBXTargetDependency */,
+			);
+			name = DropitTests;
+			productName = DropitTests;
+			productReference = 334025621ADF7FE3002DB99D /* DropitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334025451ADF7FE2002DB99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LiuScott;
+				TargetAttributes = {
+					3340254C1ADF7FE3002DB99D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					334025611ADF7FE3002DB99D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3340254C1ADF7FE3002DB99D;
+					};
+				};
+			};
+			buildConfigurationList = 334025481ADF7FE2002DB99D /* Build configuration list for PBXProject "Dropit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334025441ADF7FE2002DB99D;
+			productRefGroup = 3340254E1ADF7FE3002DB99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3340254C1ADF7FE3002DB99D /* Dropit */,
+				334025611ADF7FE3002DB99D /* DropitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3340254B1ADF7FE3002DB99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334025581ADF7FE3002DB99D /* Main.storyboard in Resources */,
+				3340255D1ADF7FE3002DB99D /* LaunchScreen.xib in Resources */,
+				3340255A1ADF7FE3002DB99D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334025601ADF7FE3002DB99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334025491ADF7FE3002DB99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334025771ADF9142002DB99D /* BezierPathView.swift in Sources */,
+				334025731ADF8233002DB99D /* DropitViewController.swift in Sources */,
+				334025531ADF7FE3002DB99D /* AppDelegate.swift in Sources */,
+				334025751ADF8968002DB99D /* DropitBehavior.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3340255E1ADF7FE3002DB99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334025691ADF7FE3002DB99D /* DropitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334025641ADF7FE3002DB99D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3340254C1ADF7FE3002DB99D /* Dropit */;
+			targetProxy = 334025631ADF7FE3002DB99D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334025561ADF7FE3002DB99D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334025571ADF7FE3002DB99D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3340255B1ADF7FE3002DB99D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3340255C1ADF7FE3002DB99D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3340256A1ADF7FE3002DB99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3340256B1ADF7FE3002DB99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3340256D1ADF7FE3002DB99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dropit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3340256E1ADF7FE3002DB99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dropit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		334025701ADF7FE3002DB99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropit.app/Dropit";
+			};
+			name = Debug;
+		};
+		334025711ADF7FE3002DB99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DropitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropit.app/Dropit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334025481ADF7FE2002DB99D /* Build configuration list for PBXProject "Dropit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3340256A1ADF7FE3002DB99D /* Debug */,
+				3340256B1ADF7FE3002DB99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3340256C1ADF7FE3002DB99D /* Build configuration list for PBXNativeTarget "Dropit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3340256D1ADF7FE3002DB99D /* Debug */,
+				3340256E1ADF7FE3002DB99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3340256F1ADF7FE3002DB99D /* Build configuration list for PBXNativeTarget "DropitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334025701ADF7FE3002DB99D /* Debug */,
+				334025711ADF7FE3002DB99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334025451ADF7FE2002DB99D /* Project object */;
+}
