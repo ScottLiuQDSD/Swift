@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC557DA61AA59E3A00048A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC557DA51AA59E3A00048A5E /* AppDelegate.m */; };
+		EC557DA81AA59E3A00048A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC557DA71AA59E3A00048A5E /* main.m */; };
+		EC557DAB1AA59E3A00048A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC557DAA1AA59E3A00048A5E /* ViewController.m */; };
+		EC557DAD1AA59E3A00048A5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC557DAC1AA59E3A00048A5E /* Images.xcassets */; };
+		EC557DB01AA59E3A00048A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC557DAE1AA59E3A00048A5E /* Main.storyboard */; };
+		EC557DBC1AA59E3A00048A5E /* NetcdfDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC557DBB1AA59E3A00048A5E /* NetcdfDemoTests.m */; };
+		EC557DC71AA59E7100048A5E /* libnetcdf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC557DC51AA59E7100048A5E /* libnetcdf.a */; };
+		EC557DC81AA59E7100048A5E /* libnetcdf.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC557DC61AA59E7100048A5E /* libnetcdf.7.dylib */; };
+		EC557E201AA59FBD00048A5E /* NCTest.c in Sources */ = {isa = PBXBuildFile; fileRef = EC557E1E1AA59FBD00048A5E /* NCTest.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC557DB61AA59E3A00048A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC557D971AA59E3A00048A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC557D9E1AA59E3A00048A5E;
+			remoteInfo = NetcdfDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC557D9F1AA59E3A00048A5E /* NetcdfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetcdfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC557DA31AA59E3A00048A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC557DA41AA59E3A00048A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC557DA51AA59E3A00048A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC557DA71AA59E3A00048A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC557DA91AA59E3A00048A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC557DAA1AA59E3A00048A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC557DAC1AA59E3A00048A5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC557DAF1AA59E3A00048A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC557DB51AA59E3A00048A5E /* NetcdfDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetcdfDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC557DBA1AA59E3A00048A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC557DBB1AA59E3A00048A5E /* NetcdfDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetcdfDemoTests.m; sourceTree = "<group>"; };
+		EC557DC51AA59E7100048A5E /* libnetcdf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnetcdf.a; path = ../3dDemo/lib/libnetcdf.a; sourceTree = "<group>"; };
+		EC557DC61AA59E7100048A5E /* libnetcdf.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnetcdf.7.dylib; path = ../3dDemo/lib/libnetcdf.7.dylib; sourceTree = "<group>"; };
+		EC557DC91AA59EB800048A5E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../3dDemo/NcFile/config.h; sourceTree = "<group>"; };
+		EC557E011AA59EB800048A5E /* netcdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netcdf.h; path = ../3dDemo/NcFile/netcdf.h; sourceTree = "<group>"; };
+		EC557E021AA59EB800048A5E /* NetCDFCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetCDFCpp.h; path = ../3dDemo/NcFile/NetCDFCpp.h; sourceTree = "<group>"; };
+		EC557E1E1AA59FBD00048A5E /* NCTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NCTest.c; sourceTree = "<group>"; };
+		EC557E1F1AA59FBD00048A5E /* NCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC557D9C1AA59E3A00048A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC557DC71AA59E7100048A5E /* libnetcdf.a in Frameworks */,
+				EC557DC81AA59E7100048A5E /* libnetcdf.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC557DB21AA59E3A00048A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC557D961AA59E3A00048A5E = {
+			isa = PBXGroup;
+			children = (
+				EC557E1E1AA59FBD00048A5E /* NCTest.c */,
+				EC557E1F1AA59FBD00048A5E /* NCTest.h */,
+				EC557DC91AA59EB800048A5E /* config.h */,
+				EC557E011AA59EB800048A5E /* netcdf.h */,
+				EC557E021AA59EB800048A5E /* NetCDFCpp.h */,
+				EC557DC51AA59E7100048A5E /* libnetcdf.a */,
+				EC557DC61AA59E7100048A5E /* libnetcdf.7.dylib */,
+				EC557DA11AA59E3A00048A5E /* NetcdfDemo */,
+				EC557DB81AA59E3A00048A5E /* NetcdfDemoTests */,
+				EC557DA01AA59E3A00048A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC557DA01AA59E3A00048A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC557D9F1AA59E3A00048A5E /* NetcdfDemo.app */,
+				EC557DB51AA59E3A00048A5E /* NetcdfDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC557DA11AA59E3A00048A5E /* NetcdfDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC557DA41AA59E3A00048A5E /* AppDelegate.h */,
+				EC557DA51AA59E3A00048A5E /* AppDelegate.m */,
+				EC557DA91AA59E3A00048A5E /* ViewController.h */,
+				EC557DAA1AA59E3A00048A5E /* ViewController.m */,
+				EC557DAC1AA59E3A00048A5E /* Images.xcassets */,
+				EC557DAE1AA59E3A00048A5E /* Main.storyboard */,
+				EC557DA21AA59E3A00048A5E /* Supporting Files */,
+			);
+			path = NetcdfDemo;
+			sourceTree = "<group>";
+		};
+		EC557DA21AA59E3A00048A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC557DA31AA59E3A00048A5E /* Info.plist */,
+				EC557DA71AA59E3A00048A5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC557DB81AA59E3A00048A5E /* NetcdfDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC557DBB1AA59E3A00048A5E /* NetcdfDemoTests.m */,
+				EC557DB91AA59E3A00048A5E /* Supporting Files */,
+			);
+			path = NetcdfDemoTests;
+			sourceTree = "<group>";
+		};
+		EC557DB91AA59E3A00048A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC557DBA1AA59E3A00048A5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC557D9E1AA59E3A00048A5E /* NetcdfDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC557DBF1AA59E3A00048A5E /* Build configuration list for PBXNativeTarget "NetcdfDemo" */;
+			buildPhases = (
+				EC557D9B1AA59E3A00048A5E /* Sources */,
+				EC557D9C1AA59E3A00048A5E /* Frameworks */,
+				EC557D9D1AA59E3A00048A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetcdfDemo;
+			productName = NetcdfDemo;
+			productReference = EC557D9F1AA59E3A00048A5E /* NetcdfDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC557DB41AA59E3A00048A5E /* NetcdfDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC557DC21AA59E3A00048A5E /* Build configuration list for PBXNativeTarget "NetcdfDemoTests" */;
+			buildPhases = (
+				EC557DB11AA59E3A00048A5E /* Sources */,
+				EC557DB21AA59E3A00048A5E /* Frameworks */,
+				EC557DB31AA59E3A00048A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC557DB71AA59E3A00048A5E /* PBXTargetDependency */,
+			);
+			name = NetcdfDemoTests;
+			productName = NetcdfDemoTests;
+			productReference = EC557DB51AA59E3A00048A5E /* NetcdfDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC557D971AA59E3A00048A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "刘玉龙";
+				TargetAttributes = {
+					EC557D9E1AA59E3A00048A5E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC557DB41AA59E3A00048A5E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC557D9E1AA59E3A00048A5E;
+					};
+				};
+			};
+			buildConfigurationList = EC557D9A1AA59E3A00048A5E /* Build configuration list for PBXProject "NetcdfDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC557D961AA59E3A00048A5E;
+			productRefGroup = EC557DA01AA59E3A00048A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC557D9E1AA59E3A00048A5E /* NetcdfDemo */,
+				EC557DB41AA59E3A00048A5E /* NetcdfDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC557D9D1AA59E3A00048A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC557DAD1AA59E3A00048A5E /* Images.xcassets in Resources */,
+				EC557DB01AA59E3A00048A5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC557DB31AA59E3A00048A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC557D9B1AA59E3A00048A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC557DAB1AA59E3A00048A5E /* ViewController.m in Sources */,
+				EC557DA81AA59E3A00048A5E /* main.m in Sources */,
+				EC557E201AA59FBD00048A5E /* NCTest.c in Sources */,
+				EC557DA61AA59E3A00048A5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC557DB11AA59E3A00048A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC557DBC1AA59E3A00048A5E /* NetcdfDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC557DB71AA59E3A00048A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC557D9E1AA59E3A00048A5E /* NetcdfDemo */;
+			targetProxy = EC557DB61AA59E3A00048A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC557DAE1AA59E3A00048A5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC557DAF1AA59E3A00048A5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC557DBD1AA59E3A00048A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC557DBE1AA59E3A00048A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC557DC01AA59E3A00048A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NetcdfDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/liuyulong/WorkSpace/3dDemo/lib,
+					/usr/local/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC557DC11AA59E3A00048A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NetcdfDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/liuyulong/WorkSpace/3dDemo/lib,
+					/usr/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC557DC31AA59E3A00048A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetcdfDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetcdfDemo.app/Contents/MacOS/NetcdfDemo";
+			};
+			name = Debug;
+		};
+		EC557DC41AA59E3A00048A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetcdfDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetcdfDemo.app/Contents/MacOS/NetcdfDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC557D9A1AA59E3A00048A5E /* Build configuration list for PBXProject "NetcdfDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC557DBD1AA59E3A00048A5E /* Debug */,
+				EC557DBE1AA59E3A00048A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC557DBF1AA59E3A00048A5E /* Build configuration list for PBXNativeTarget "NetcdfDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC557DC01AA59E3A00048A5E /* Debug */,
+				EC557DC11AA59E3A00048A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC557DC21AA59E3A00048A5E /* Build configuration list for PBXNativeTarget "NetcdfDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC557DC31AA59E3A00048A5E /* Debug */,
+				EC557DC41AA59E3A00048A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC557D971AA59E3A00048A5E /* Project object */;
+}
